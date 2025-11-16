@@ -5,15 +5,30 @@ package assets;
 public abstract class Locomotive {
 
     protected String model;
-    protected double weight;
+    protected int weight;
+    protected int maxHaulingWeight;
 
-    protected double maxHaulingWeight;
-
-    public Locomotive() {
-
+    public Locomotive(String model, int weight, int maxHaulingWeight) {
+        this.model = model;
+        this.weight = weight;
+        this.maxHaulingWeight = maxHaulingWeight;
     }
 
-    public double getMaxHaulingWeight() {
-        return this.maxHaulingWeight;
+
+    public String getModel(){
+        return model;
     }
+    public int getWeight(){
+        return weight;
+    }
+    public int getMaxHaulingWeight() {
+        return maxHaulingWeight;
+    }
+
+
+    public boolean canHaul(int haulWeight) {
+        return haulWeight <= maxHaulingWeight;
+    }
+
+
 }

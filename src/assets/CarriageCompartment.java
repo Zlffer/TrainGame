@@ -5,8 +5,7 @@ package assets;
 public class CarriageCompartment extends Carriage {
 
     public CarriageCompartment() {
-        super();
-
+        super(60,90,40);
     }
 
 }

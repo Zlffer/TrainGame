@@ -4,7 +4,6 @@ package ui;
 import actions.*;
 import java.util.Scanner;
 
-
 public class MainMenu {
 
     private Scanner scanner;
@@ -43,30 +42,21 @@ public class MainMenu {
 
         switch (input) {
             case "1":
-
-                new MMCreateTrainAction().execute();
-                new GameMenu(scanner).run();
+                new MMCreateTrainAction(scanner).execute();
                 break;
-
             case "2":
-
-                new MMDownloadTrainAction().execute();
-                new GameMenu(scanner).run();
+                new MMDownloadTrainAction(scanner).execute();
                 break;
-
             case "3":
-
-                new MMShowManualAction().execute();
+                new MMShowManualAction(scanner).execute();
                 break;
-
             case "4":
-
                 new MMExitAction().execute();
                 this.isRunning = false;
                 break;
-
             default:
                 System.out.println("Wrong choice >:( ...");
         }
     }
+
 }

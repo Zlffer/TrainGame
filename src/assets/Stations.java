@@ -3,7 +3,6 @@ package assets;
 
 
 public enum Stations {
-    // Список станцій з "Station Schedule"
     NOVEMBERVILLE,
     SOWER,
     WORKERS_WAY_STATION,
