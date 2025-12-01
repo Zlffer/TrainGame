@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN" monitorInterval="30">
+    <Appenders>
+
+        <Console name="ConsoleAppender" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+
+        <SMTP name="EmailAppender"
+              subject="[TrainGame ERROR]"
+              to="dmitrov.dmitriy.ua@gmail.com"
+              from="log-sender@example.com"
+              smtpHost="smtp.gmail.com"
+              smtpPort="465"
+              smtpProtocol="smtps"
+              smtpUsername="dmitrov.dmitriy.ua@gmail.com"
+              smtpPassword="csyi ipwr vzkx dgkd"
+              bufferSize="1"
+              ignoreExceptions="false">
+
+            <Property name="mail.smtp.ssl.enable">true</Property>
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level %logger{36} - %msg%n"/>
+            <ThresholdFilter level="ERROR"/>
+        </SMTP>
+
+    </Appenders>
+
+    <Loggers>
+
+        <Root level="info">
+            <AppenderRef ref="ConsoleAppender"/>
+            <AppenderRef ref="EmailAppender"/>
+        </Root>
+
+    </Loggers>
+</Configuration>

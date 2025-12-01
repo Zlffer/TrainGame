@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="43f55939-ceb2-4256-8826-3ed5ef15406a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainGame.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TrainGame.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/Action.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/GMCheckCarriagesAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/GMCheckCarriagesAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/GMNextStationAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/GMNextStationAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/GMPassengersFindAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/GMPassengersFindAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/GMPassengersTransitAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/GMPassengersTransitAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/GMShowCarriageInfoAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/GMShowCarriageInfoAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/GMStatisticsAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/GMStatisticsAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/MMCreateTrainAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/MMCreateTrainAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/MMDownloadTrainAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/MMDownloadTrainAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/MMExitAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/MMExitAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/MMShowManualAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/MMShowManualAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/Carriage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assets/Carriage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/CarriageCompartment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assets/CarriageCompartment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/CarriageCouchette.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assets/CarriageCouchette.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/CarriageRestaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assets/CarriageRestaurant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/Locomotive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assets/Locomotive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/LocomotiveHeavy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assets/LocomotiveHeavy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/LocomotiveLight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assets/LocomotiveLight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/LocomotiveMedium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assets/LocomotiveMedium.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/StationStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assets/StationStats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/Stations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assets/Stations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/TicketTypes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/Train.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assets/Train.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assets/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/GameMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/GameMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/MainMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/TrainBuilderMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/TrainBuilderMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/package-info.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Zlffer&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Zlffer/TrainGame.git&quot;,
+    &quot;accountId&quot;: &quot;6b3b9e59-e80a-486e-af82-2883b7de3f53&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="36D04BzC22Bl0CUT6jsGSCyI5r4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="JUnit.MMDownloadTrainActionTest">
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="TrainGame" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MMDownloadTrainActionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TrainGame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="actions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="actions" />
+      <option name="MAIN_CLASS_NAME" value="actions.MMDownloadTrainActionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MMDownloadTrainActionTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="43f55939-ceb2-4256-8826-3ed5ef15406a" name="Changes" comment="" />
+      <created>1764525641773</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1764525641773</updated>
+    </task>
+    <servers />
+  </component>
+</project>
