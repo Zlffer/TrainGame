@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration status="WARN" monitorInterval="30">
     <Appenders>
+        <File name="FileAppender" fileName="logs/app.log">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+            <ThresholdFilter level="info"/>
+        </File>
 
         <Console name="ConsoleAppender" target="SYSTEM_OUT">
             <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
@@ -26,10 +30,10 @@
     </Appenders>
 
     <Loggers>
-
         <Root level="info">
             <AppenderRef ref="ConsoleAppender"/>
             <AppenderRef ref="EmailAppender"/>
+            <AppenderRef ref="FileAppender"/>
         </Root>
 
     </Loggers>
