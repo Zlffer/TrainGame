@@ -12,13 +12,13 @@
 
         <SMTP name="EmailAppender"
               subject="[TrainGame ERROR]"
-              to="dmitrov.dmitriy.ua@gmail.com"
+              to="${env:SMTP_TO_EMAIL}"
               from="log-sender@example.com"
               smtpHost="smtp.gmail.com"
               smtpPort="465"
               smtpProtocol="smtps"
-              smtpUsername="dmitrov.dmitriy.ua@gmail.com"
-              smtpPassword="csyi ipwr vzkx dgkd"
+              smtpUsername="${env:SMTP_USERNAME}"
+              smtpPassword="${env:SMTP_PASSWORD}"
               bufferSize="1"
               ignoreExceptions="false">
 
